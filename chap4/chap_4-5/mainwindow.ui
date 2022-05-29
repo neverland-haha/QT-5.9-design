@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>854</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>651</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>QPlainTextEdit(具有标准快捷菜单)</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="bntAdd">
+       <property name="text">
+        <string>文本框内容添加到 ComboBox</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="bntClearContent">
+       <property name="text">
+        <string>清除文本内容</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string>Read Only</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="3">
+      <widget class="QPlainTextEdit" name="plainTextEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>651</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>简单ComboBox</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="bntInit">
+          <property name="text">
+           <string>初始化列表</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="bntClear">
+          <property name="text">
+           <string>清除列表</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QCheckBox" name="checkBox">
+          <property name="text">
+           <string>可编辑</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="3">
+         <widget class="QComboBox" name="comboBox">
+          <item>
+           <property name="text">
+            <string>北京</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/images/icons/aim.ico</normaloff>:/images/icons/aim.ico</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>上海</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/images/icons/aim.ico</normaloff>:/images/icons/aim.ico</iconset>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>有用户数据的ComboBox</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="2" column="0">
+         <widget class="QComboBox" name="comboBox_2">
+          <item>
+           <property name="text">
+            <string>北京</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>上海</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="bntInitCity">
+          <property name="text">
+           <string>初始化城市+区号</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>854</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
